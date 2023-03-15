@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOG REGISTER</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p{color: red;}
+
+</style>
+
+  <body>
+    
+<form>
+      <div class="container">
+        <h1>Camper Information</h1>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br>
+   <h4><center>Owner Information</h4><hr>
+   <br>
+   
+ <div class="input-section">
+          <label>First Name <span class="required-color">*</span></label>
+          <input type="text"placeholder="Enter First Name" id="first-name-input" required />
+          <span id="first-name-error" class="hide required-color error-message"
+            >Invalid Input</span
+          >
+          <span id="empty-first-name" class="hide required-color error-message"
+            >First Name Cannot Be Empty</span
+          >
+        </div>
+        
+<div class="input-section">
+          <label>Last Name<span class="required-color">*</span></label>
+          <input
+            type="text "
+            placeholder="Enter Last Name"
+            id="last-name-input"
+            required
+          />
+          <span id="last-name-error" class="hide required-color error-message"
+            >Invalid Input</span
+          >
+          <span id="empty-last-name" class="hide required-color error-message">
+            Last Name Cannot Be Empty
+          </span>
+        </div>
+
+ <div class="input-section">
+          <label>Email <span class="required-color">*</span></label>
+          <input type="email" placeholder="Enter Email" id="email" required />
+          <span id="email-error" class="hide required-color error-message"
+            >Invalid Email</span
+          >
+          <span id="empty-email" class="hide required-color error-message"
+            >Email Cannot Be Empty</span
+          >
+        </div>
+
+<div class="input-section">
+          <label>Phone <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Enter Phone Number"
+            id="phone"
+            required
+          />
+          <span id="phone-error" class="hide required-color error-message"
+            >Phone Number Should Have 10 Digits</span
+          >
+          <span id="empty-phone" class="hide required-color error-message">
+            Phone cannot be empty
+          </span>
+        </div>
+<input
+          type="text"
+          placeholder="Enter Address"
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address Line "><b>street address Line</b></label> 
+   <br>
+<input
+          type="text"
+          placeholder="Enter Address Line 2"
+          name="address"
+          id="address"
+          required
+        /> 
+         <br>
+<label for="street address"><b>street Adress Line 2</b></label> 
+   
+   <br>
+<input
+          type="text"
+          placeholder="Enter City"
+          name="city"
+          id="city"
+          required
+        /> 
+         <br>
+<label for="state - province"><b>State Province</b></label>     
+   <br>
+<input
+          type="text"
+          placeholder="Enter State/Province"
+          name="State/Province"
+          id="State/Provonce"
+          required
+        /> 
+         <br>
+<label for="State/Province"><b>state / province</b></label>
+
+ <br>
+<input
+          type="text"
+          placeholder="Postal / Zipcode"
+          name="Postal / Zipcode"
+          id="Postal / Zipcode"
+          required
+        /> 
+<label for="Postal / Zipcode"><b>postal / zipcode</b></label>
+        
+<label for="country">Select Country:</label>
+<select id="country" name="countrylist" form="countryform">
+    <option value=""></option>
+  <option value="Philippines">Philippines</option>
+  <option value="America">America</option>
+  <option value="Japan">Japan</option>
+  <option value="Korea">Korea</option>
+    <option value="China">China</option>
+    <option value="Thailand">Thailand</option>
+</select>
+ <h1>Vet Records & Information</h1>
+  <label for="Distemper Due"><b>Distemper due</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder="Enter Distemper due"
+          name="Due"
+          id="Due"
+          required
+        />
+                <label for="Rabies due"><b>Rabies due</b></label> 
+        <input
+          type="text"
+          placeholder="Enter Rabies due"
+          name="Due"
+          id="Due"
+          required
+        />
+          <label for="Bordatella due"><b>Bordatella due</b></label> 
+        <br>
+        <input
+          type="text"
+          placeholder="Enter Bordatella due"
+          name="Due"
+          id="Due"
+          required
+        />
+        <label for="Veterinarian Name"> <br><b>Veterinarian Name</b></label> 
+        <input
+          type="text"
+          placeholder=""
+          name="name"
+          id="name"
+          required
+        />
+<label for="Areacode"><b>Area code</b></label>  
+<p>Address : </p>
+        
+<input
+          type="text"
+          placeholder="Enter Address."
+          name="address"
+          id="address"
+          required
+        /> 
+<label for="street address Line "><b>street address Line</b></label> 
+   <br>
+<input
+          type="text"
+          placeholder="Enter Address Line 2"
+          name="address"
+          id="address"
+          required
+        /> 
+<label for="street address"><b>street Adress Line 2</b></label> 
+<input
+          type="text"
+          placeholder="Enter City"
+          name="city"
+          id="city"
+          required
+        /> 
+<label for="state - province"><b>State Province</b></label>     
+<input
+          type="text"
+          placeholder="Enter State/Province"
+          name="State/Province"
+          id="State/Provonce"
+          required
+        /> 
+<label for="State/Province"><b>state / province</b></label>
+<input
+          type="number"
+          placeholder="Postal / Zipcode"
+          name="Postal / Zipcode"
+          id="Postal / Zipcode"
+          required
+        /> 
+<label for="Postal / Zipcode"><b>postal / zipcode</b></label>
+<label for="country">Select Country:</label>
+<select id="country" name="countrylist" form="countryform">
+    <option value=""></option>
+  <option value="Philippines">Philippines</option>
+  <option value="America">America</option>
+  <option value="Japan">Japan</option>
+  <option value="Korea">Korea</option>
+    <option value="China">China</option>
+    <option value="Thailand">Thailand</option>
+</select>
+     <center><button type="submit">SUBMIT</button> 
+      </div>
+      
+    </form>
+     
+     <script src="script.js"></script>
+  
+  
+  </head>
+ </body> 
+</html>
